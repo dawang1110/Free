@@ -15,7 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 台湾独家|🐰1, server: 103.177.33.180, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇹🇼 台湾独家|🐰1, server: 103.177.33.180, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
   - {name: 🇸🇬 狮城普通|🐰, server: sg2.f163ab0f2c74.sanfen004.me, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6d31bd0b-81df-4bb0-b9ea-e00bab2e06d8, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: sg1.sanfen004.me}
   - {name: 🇺🇸 美国|🐰, server: 38.26.191.98, port: 49920, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇭🇰 香港1|🐰, server: hk6.microsoft-orgwly.vip, port: 443, client-fingerprint: chrome, type: trojan, password: df0dd92c-a753-49b6-b773-1aa06dc796cc, tfo: false, sni: tls.microsoft-orgwly.vip, skip-cert-verify: false}
