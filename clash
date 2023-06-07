@@ -19,6 +19,7 @@ proxies:
   - {name: 🇸🇬 狮城普通|🐰, server: sg2.f163ab0f2c74.sanfen004.me, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6d31bd0b-81df-4bb0-b9ea-e00bab2e06d8, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: sg1.sanfen004.me}
   - {name: 🇺🇸 美国|🐰1, server: 38.26.191.98, port: 49920, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 美国|🐰2, server: cf-lt.sharecentre.online, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇺🇸 美国|🐰3, server: cf-lt.sharecentre.online, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
   - {name: 🇭🇰 香港1|🐰, server: hk6.microsoft-orgwly.vip, port: 443, client-fingerprint: chrome, type: trojan, password: df0dd92c-a753-49b6-b773-1aa06dc796cc, tfo: false, sni: tls.microsoft-orgwly.vip, skip-cert-verify: false}
   - {name: 🇯🇵 日本A|🐰, server: jp.stablize.top, port: 443, client-fingerprint: chrome, type: trojan, password: a95c1047-189c-4b26-8a54-8580f455827c, tfo: false, sni: jp.stablize.top, skip-cert-verify: false}
   - {name: 以色列|🐰1, server:  uk1.chuqiangtou.net, port: 4003, client-fingerprint: chrome, type: trojan, password: TJCfE7Mx2YcA8kX8zg, tfo: false, sni: uk1.chuqiangtou.net, skip-cert-verify: false}
@@ -50,6 +51,7 @@ proxy-groups:
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
+      - 🇺🇸 美国|🐰3
       - 以色列|🐰4
       - 🇯🇵 日本A|🐰
       - 🇹🇼 台湾|🐰
@@ -77,6 +79,7 @@ proxy-groups:
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
+      - 🇺🇸 美国|🐰3
       - 以色列|🐰4
       - 🇯🇵 日本A|🐰
       - 🇹🇼 台湾|🐰
@@ -104,6 +107,7 @@ proxy-groups:
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
+      - 🇺🇸 美国|🐰3
       - 以色列|🐰4
       - 🇯🇵 日本A|🐰
       - 🇹🇼 台湾|🐰
@@ -130,6 +134,7 @@ proxy-groups:
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
+      - 🇺🇸 美国|🐰3
       - 以色列|🐰4
       - 🇯🇵 日本A|🐰
       - 🇹🇼 台湾|🐰
@@ -156,6 +161,7 @@ proxy-groups:
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
+      - 🇺🇸 美国|🐰3
       - 以色列|🐰4
       - 🇯🇵 日本A|🐰
       - 🇹🇼 台湾|🐰
@@ -182,6 +188,7 @@ proxy-groups:
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
+      - 🇺🇸 美国|🐰3
       - 以色列|🐰4
       - 🇯🇵 日本A|🐰
       - 🇹🇼 台湾|🐰
@@ -209,6 +216,7 @@ proxy-groups:
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
+      - 🇺🇸 美国|🐰3
       - 以色列|🐰4
       - 🇯🇵 日本A|🐰
       - 🇹🇼 台湾|🐰
@@ -252,6 +260,7 @@ proxy-groups:
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
+      - 🇺🇸 美国|🐰3
       - 以色列|🐰4
       - 🇯🇵 日本A|🐰
       - 🇹🇼 台湾|🐰
