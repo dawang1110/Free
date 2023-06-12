@@ -20,8 +20,8 @@ proxies:
   - {name: 🇹🇼 台湾|🐰2, server: ip1158944211.mobgslb.tbcache.com, port: 443, client-fingerprint: chrome, type: trojan, password: 1381fa76-e460-3a03-a01b-b9ad00e01415, tfo: false, sni: ip1158944211.mobgslb.tbcache.com, skip-cert-verify: false}
   - {name: 🇹🇼 台湾|🐰3, server: 14.29.124.168, port: 24002, client-fingerprint: chrome, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, tfo: false}
   - {name: 🇹🇼 台湾|🐰4, server: ip1158944211.mobgslb.tbcache.com, port: 443, client-fingerprint: chrome, type: trojan, password: 1381fa76-e460-3a03-a01b-b9ad00e01415, tfo: false, sni: ip1158944211.mobgslb.tbcache.com, skip-cert-verify: false}
-  - {name: 🇸🇬 狮城|🐰, server: sg2.f163ab0f2c74.sanfen004.me, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6d31bd0b-81df-4bb0-b9ea-e00bab2e06d8, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: sg1.sanfen004.me}
-  - {name: 🇸🇬 狮城|🐰1, server: zfc.windowsupdate1.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8ef37760-8711-4f29-8a87-daa5bd14a026, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: sg2.pqjc.buzz, network: ws, ws-opts: {path: "/pq/sg2?ed=2048", headers: {Host: sg2.pqjc.buzz}}}
+  - {name: 狮城|🐰, server: sg2.f163ab0f2c74.sanfen004.me, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6d31bd0b-81df-4bb0-b9ea-e00bab2e06d8, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: sg1.sanfen004.me}
+  - {name: 狮城|🐰1, server: zfc.windowsupdate1.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8ef37760-8711-4f29-8a87-daa5bd14a026, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: sg2.pqjc.buzz, network: ws, ws-opts: {path: "/pq/sg2?ed=2048", headers: {Host: sg2.pqjc.buzz}}}
   - {name: 🇺🇸 美国|🐰1, server: 38.26.191.98, port: 49920, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 美国|🐰2, server:  sg.stablize.top, port: 443, client-fingerprint: chrome, type: trojan, password: a2dc16a1-b60e-4e40-860e-4f8a560795ca, tfo: false, sni: sg.stablize.top, skip-cert-verify: false}
   - {name: 🇺🇸 美国|🐰3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
@@ -61,8 +61,8 @@ proxy-groups:
       - 🇹🇼 台湾|🐰2
       - 🇹🇼 台湾|🐰3
       - 🇹🇼 台湾|🐰4
-      - 🇸🇬 狮城|🐰
-		  - 🇸🇬 狮城|🐰1
+      - 狮城|🐰
+      - 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
       - 以色列|🐰3
@@ -102,8 +102,8 @@ proxy-groups:
       - 🇹🇼 台湾|🐰2
       - 🇹🇼 台湾|🐰3
       - 🇹🇼 台湾|🐰4
-      - 🇸🇬 狮城|🐰
-		  - 🇸🇬 狮城|🐰1
+      - 狮城|🐰
+      - 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
       - 以色列|🐰3
@@ -143,8 +143,8 @@ proxy-groups:
       - 🇹🇼 台湾|🐰2
       - 🇹🇼 台湾|🐰3
       - 🇹🇼 台湾|🐰4
-      - 🇸🇬 狮城|🐰
-		  - 🇸🇬 狮城|🐰1
+      - 狮城|🐰
+      - 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
       - 以色列|🐰3
@@ -183,8 +183,8 @@ proxy-groups:
       - 🇹🇼 台湾|🐰2
       - 🇹🇼 台湾|🐰3
       - 🇹🇼 台湾|🐰4
-      - 🇸🇬 狮城|🐰
-		  - 🇸🇬 狮城|🐰1
+      - 狮城|🐰
+      - 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
       - 以色列|🐰3
@@ -223,8 +223,8 @@ proxy-groups:
       - 🇹🇼 台湾|🐰2
       - 🇹🇼 台湾|🐰3
       - 🇹🇼 台湾|🐰4
-      - 🇸🇬 狮城|🐰
-		  - 🇸🇬 狮城|🐰1
+      - 狮城|🐰
+      - 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
       - 以色列|🐰3
@@ -263,8 +263,8 @@ proxy-groups:
       - 🇹🇼 台湾|🐰2
       - 🇹🇼 台湾|🐰3
       - 🇹🇼 台湾|🐰4
-      - 🇸🇬 狮城|🐰
-		  - 🇸🇬 狮城|🐰1
+      - 狮城|🐰
+      - 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
       - 以色列|🐰3
@@ -304,8 +304,8 @@ proxy-groups:
       - 🇹🇼 台湾|🐰2
       - 🇹🇼 台湾|🐰3
       - 🇹🇼 台湾|🐰4
-      - 🇸🇬 狮城|🐰
-		  - 🇸🇬 狮城|🐰1
+      - 狮城|🐰
+      - 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
       - 以色列|🐰3
@@ -361,8 +361,8 @@ proxy-groups:
       - 🇹🇼 台湾|🐰2
       - 🇹🇼 台湾|🐰3
       - 🇹🇼 台湾|🐰4
-      - 🇸🇬 狮城|🐰
-		  - 🇸🇬 狮城|🐰1
+      - 狮城|🐰
+      - 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
       - 以色列|🐰3
