@@ -15,43 +15,58 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇹🇼 台湾独家|🐰1, server: 103.177.33.180, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 🇸🇬 狮城普通|🐰, server: sg2.f163ab0f2c74.sanfen004.me, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6d31bd0b-81df-4bb0-b9ea-e00bab2e06d8, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: sg1.sanfen004.me}
+  - {name: 🇹🇼 台湾|🐰, server: zjcu.relay-idc.top, port: 23639, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ced8db3c-831d-4935-af18-25ce14c0a1fa, tfo: false}
+  - {name: 🇹🇼 台湾|🐰1, server: 103.177.33.180, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇹🇼 台湾|🐰2, server: ip1158944211.mobgslb.tbcache.com, port: 443, client-fingerprint: chrome, type: trojan, password: 1381fa76-e460-3a03-a01b-b9ad00e01415, tfo: false, sni: ip1158944211.mobgslb.tbcache.com, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾|🐰3, server: 14.29.124.168, port: 24002, client-fingerprint: chrome, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, tfo: false}
+  - {name: 🇹🇼 台湾|🐰4, server: ip1158944211.mobgslb.tbcache.com, port: 443, client-fingerprint: chrome, type: trojan, password: 1381fa76-e460-3a03-a01b-b9ad00e01415, tfo: false, sni: ip1158944211.mobgslb.tbcache.com, skip-cert-verify: false}
+  - {name: 🇸🇬 狮城|🐰, server: sg2.f163ab0f2c74.sanfen004.me, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6d31bd0b-81df-4bb0-b9ea-e00bab2e06d8, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: sg1.sanfen004.me}
+  - {name: 🇸🇬 狮城|🐰1, server: zfc.windowsupdate1.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8ef37760-8711-4f29-8a87-daa5bd14a026, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: sg2.pqjc.buzz, network: ws, ws-opts: {path: "/pq/sg2?ed=2048", headers: {Host: sg2.pqjc.buzz}}}
   - {name: 🇺🇸 美国|🐰1, server: 38.26.191.98, port: 49920, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 美国|🐰2, server:  sg.stablize.top, port: 443, client-fingerprint: chrome, type: trojan, password: a2dc16a1-b60e-4e40-860e-4f8a560795ca, tfo: false, sni: sg.stablize.top, skip-cert-verify: false}
   - {name: 🇺🇸 美国|🐰3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
   - {name: 🇺🇸 美国|🐰4, server:  fscjp.fscloud123456789.com, port: 443, client-fingerprint: chrome, type: trojan, password: 033392cd-2d42-4e00-98b1-25776e5bc226, tfo: false, sni: fscjp.fscloud123456789.com, skip-cert-verify: false}
   - {name: 🇺🇸 美国|🐰5, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}}
   - {name: 🇺🇸 美国|🐰6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}} 
-  - {name: 🇭🇰 香港1|🐰, server: hk6.microsoft-orgwly.vip, port: 443, client-fingerprint: chrome, type: trojan, password: df0dd92c-a753-49b6-b773-1aa06dc796cc, tfo: false, sni: tls.microsoft-orgwly.vip, skip-cert-verify: false}
-  - {name: 🇯🇵 日本|🐰1, server: jp.stablize.top, port: 443, client-fingerprint: chrome, type: trojan, password: a95c1047-189c-4b26-8a54-8580f455827c, tfo: false, sni: jp.stablize.top, skip-cert-verify: false}
+  - {name: 🇺🇸 美国|🐰7, server: 45.153.203.83, port: 41632, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国|🐰8, server: 137.175.21.140, port: 42014, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国|🐰9, server: 107.167.12.29, port: 41707, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本|🐰1, server: microsoft-jp.syjd.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: e1d030ca-46c3-4881-9286-70ad3c8c99aa, tfo: false, sni: microsoft-jp.syjd.xyz, skip-cert-verify: false}
   - {name: 🇯🇵 日本|🐰2, server: jd001.sologoog.xyz, port: 21456, type: vmess, uuid: ac0f84f3-271a-44a6-b9c5-d3841099f640, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jcnf, headers: {Host: jd001.sologoog.xyz}}} 
   - {name: 以色列|🐰1, server:  uk1.chuqiangtou.net, port: 4003, client-fingerprint: chrome, type: trojan, password: TJCfE7Mx2YcA8kX8zg, tfo: false, sni: uk1.chuqiangtou.net, skip-cert-verify: false}
   - {name: 以色列|🐰2, server:  us1.chuqiangtou.net, port: 4003, client-fingerprint: chrome, type: trojan, password: TJCfE7Mx2YcA8kX8zg, tfo: false, sni: uk1.chuqiangtou.net, skip-cert-verify: false}
   - {name: 以色列|🐰3, server:  au1.chuqiangtou.net, port: 4003, client-fingerprint: chrome, type: trojan, password: TJCfE7Mx2YcA8kX8zg, tfo: false, sni: uk1.chuqiangtou.net, skip-cert-verify: false}
   - {name: 以色列|🐰4, server:  uk1.chuqiangtou.net, port: 4003, client-fingerprint: chrome, type: trojan, password: TJCfE7Mx2YcA8kX8zg, tfo: false, sni: uk1.chuqiangtou.net, skip-cert-verify: false}
   - {name: 以色列|🐰5, server:  us2.chuqiangtou.net, port: 4003, client-fingerprint: chrome, type: trojan, password: TJCfE7Mx2YcA8kX8zg, tfo: false, sni: uk1.chuqiangtou.net, skip-cert-verify: false}
-  - {name: 🇹🇼 台湾|🐰, server: zjcu.relay-idc.top, port: 23639, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ced8db3c-831d-4935-af18-25ce14c0a1fa, tfo: false}
-  - {name: 🇭🇰 香港A|🐰, server: azjp2.downloadvip.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, tfo: false, sni: us4.xn--mes358a9urctx.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港B|🐰, server: 183.232.113.108, port: 39455, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 250e655e-4dcb-46f1-aaf9-04295a240a74, tfo: false}
-  - {name: 🇹🇼 台湾2|🐰, server: 14.29.124.168, port: 24002, client-fingerprint: chrome, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, tfo: false}
-  - {name: 🇸🇬 新加坡|🐰, server: 183.232.113.108, port: 49622, client-fingerprint: chrome, type: vmess, uuid: b960710c-8b49-45d9-ab13-52d876eee329, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🐰, server: 156.227.6.7, port: 43692, client-fingerprint: chrome, type: vmess, uuid: d3b43b85-1b50-4cb5-9738-8d65bae2c95d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港c|🐰, server: 183.237.20.158, port: 40095, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港A|🐰, server: sdttkza.76898102.xyz, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 7ed7e770-140d-37d0-8bbd-11cafb8186e2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: sdttkz.76898102.xyz}}}
+  - {name: 🇭🇰 香港B|🐰, server: 120.195.181.81, port: 36009, client-fingerprint: chrome, type: vmess, uuid: e08c01e6-d60b-3999-9948-9548bc484c09, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港C|🐰, server: hkgkgb.76898102.xyz, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 285bfc27-2341-3c7a-be0e-360cedd5e209, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: hkg.76898102.xyz}}}
+  - {name: 🇭🇰 香港|🐰, server: hk6.microsoft-orgwly.vip, port: 443, client-fingerprint: chrome, type: trojan, password: df0dd92c-a753-49b6-b773-1aa06dc796cc, tfo: false, sni: tls.microsoft-orgwly.vip, skip-cert-verify: false}
+  - {name: 🇭🇰 香港|🐰1, server: 120.233.47.180, port: 38026, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 8a784c36-dd4f-41f4-a6cd-863d1297d3b3, tfo: false}
+  - {name: 🇭🇰 香港|🐰2, server: 120.233.47.180, port: 38026, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 8a784c36-dd4f-41f4-a6cd-863d1297d3b3, tfo: false}
+  - {name: 🇸🇬 新加坡|🐰, server: 13.215.205.45, port: 443, client-fingerprint: chrome, type: vmess, uuid: 9bc3178b-959d-45ea-a487-b66c6098a4a5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 日本东京|🐰, server: free.themars.top, port: 32102, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, tfo: false}
-  - {name: 🏳️‍🌈 恶意刷流量是狗, server: you.are.sb, port: 31235, client-fingerprint: chrome, type: vmess, uuid: 2857b72b-5339-3c3c-987c-060f6720e377, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /maohk3, headers: {Host: you.are.sb}}}
   - {name: 🇯🇵 日本B|🐰, server: jprtttlcs.76898102.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 0ee79445-85a0-38fe-be38-58035ad10530, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /miao, headers: {Host: jprtttlcs.76898102.xyz}}}
+  - {name: 🇰🇷 韩国|🐰, server: 221.131.165.175, port: 19106, client-fingerprint: chrome, type: vmess, uuid: 1b35440a-1309-339b-9dd3-ff90ff887d76, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /soda}}
+  - {name: 🇰🇷 韩国|🐰1, server: kr3.microsoft-orgwly.vip, port: 10020, client-fingerprint: chrome, type: trojan, password: a65deb10-c5e0-4bda-9306-b7a77a66966c, tfo: false, sni: tls.microsoft-orgwly.vip, skip-cert-verify: false}
+  - {name: 🏳️‍🌈 恶意刷流量是狗, server: you.are.sb, port: 31235, client-fingerprint: chrome, type: vmess, uuid: 2857b72b-5339-3c3c-987c-060f6720e377, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /maohk3, headers: {Host: you.are.sb}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇹🇼 台湾独家|🐰1
-      - 🇸🇬 狮城普通|🐰
+      - 🇹🇼 台湾|🐰
+      - 🇹🇼 台湾|🐰1
+      - 🇹🇼 台湾|🐰2
+      - 🇹🇼 台湾|🐰3
+      - 🇹🇼 台湾|🐰4
+      - 🇸🇬 狮城|🐰
+		  - 🇸🇬 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
-      - 🇭🇰 香港1|🐰
+      - 以色列|🐰3
+      - 以色列|🐰4
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
@@ -59,31 +74,40 @@ proxy-groups:
       - 🇺🇸 美国|🐰4
       - 🇺🇸 美国|🐰5
       - 🇺🇸 美国|🐰6
-      - 以色列|🐰4
+      - 🇺🇸 美国|🐰7
+      - 🇺🇸 美国|🐰8
+      - 🇺🇸 美国|🐰9
       - 🇯🇵 日本|🐰1
       - 🇯🇵 日本|🐰2
-      - 🇹🇼 台湾|🐰
       - 🇭🇰 香港A|🐰
       - 🇭🇰 香港B|🐰
-      - 以色列|🐰3
-      - 🇹🇼 台湾2|🐰
+      - 🇭🇰 香港C|🐰
+      - 🇭🇰 香港|🐰
+      - 🇭🇰 香港|🐰1
+      - 🇭🇰 香港|🐰2
       - 🇸🇬 新加坡|🐰
-      - 🐰
-      - 🇭🇰 香港c|🐰
       - 🇯🇵 日本东京|🐰
-      - 🏳️‍🌈 恶意刷流量是狗
       - 🇯🇵 日本B|🐰
+      - 🇰🇷 韩国|🐰
+      - 🇰🇷 韩国|🐰1
+      - 🏳️‍🌈 恶意刷流量是狗
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇹🇼 台湾独家|🐰1
-      - 🇸🇬 狮城普通|🐰
+      - 🇹🇼 台湾|🐰
+      - 🇹🇼 台湾|🐰1
+      - 🇹🇼 台湾|🐰2
+      - 🇹🇼 台湾|🐰3
+      - 🇹🇼 台湾|🐰4
+      - 🇸🇬 狮城|🐰
+		  - 🇸🇬 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
-      - 🇭🇰 香港1|🐰
+      - 以色列|🐰3
+      - 以色列|🐰4
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
@@ -91,31 +115,40 @@ proxy-groups:
       - 🇺🇸 美国|🐰4
       - 🇺🇸 美国|🐰5
       - 🇺🇸 美国|🐰6
-      - 以色列|🐰4
+      - 🇺🇸 美国|🐰7
+      - 🇺🇸 美国|🐰8
+      - 🇺🇸 美国|🐰9
       - 🇯🇵 日本|🐰1
       - 🇯🇵 日本|🐰2
-      - 🇹🇼 台湾|🐰
       - 🇭🇰 香港A|🐰
       - 🇭🇰 香港B|🐰
-      - 以色列|🐰3
-      - 🇹🇼 台湾2|🐰
+      - 🇭🇰 香港C|🐰
+      - 🇭🇰 香港|🐰
+      - 🇭🇰 香港|🐰1
+      - 🇭🇰 香港|🐰2
       - 🇸🇬 新加坡|🐰
-      - 🐰
-      - 🇭🇰 香港c|🐰
       - 🇯🇵 日本东京|🐰
-      - 🏳️‍🌈 恶意刷流量是狗
       - 🇯🇵 日本B|🐰
+      - 🇰🇷 韩国|🐰
+      - 🇰🇷 韩国|🐰1
+      - 🏳️‍🌈 恶意刷流量是狗
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇼 台湾独家|🐰1
-      - 🇸🇬 狮城普通|🐰
+      - 🇹🇼 台湾|🐰
+      - 🇹🇼 台湾|🐰1
+      - 🇹🇼 台湾|🐰2
+      - 🇹🇼 台湾|🐰3
+      - 🇹🇼 台湾|🐰4
+      - 🇸🇬 狮城|🐰
+		  - 🇸🇬 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
-      - 🇭🇰 香港1|🐰
+      - 以色列|🐰3
+      - 以色列|🐰4
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
@@ -123,30 +156,39 @@ proxy-groups:
       - 🇺🇸 美国|🐰4
       - 🇺🇸 美国|🐰5
       - 🇺🇸 美国|🐰6
-      - 以色列|🐰4
+      - 🇺🇸 美国|🐰7
+      - 🇺🇸 美国|🐰8
+      - 🇺🇸 美国|🐰9
       - 🇯🇵 日本|🐰1
       - 🇯🇵 日本|🐰2
-      - 🇹🇼 台湾|🐰
       - 🇭🇰 香港A|🐰
       - 🇭🇰 香港B|🐰
-      - 以色列|🐰3
-      - 🇹🇼 台湾2|🐰
+      - 🇭🇰 香港C|🐰
+      - 🇭🇰 香港|🐰
+      - 🇭🇰 香港|🐰1
+      - 🇭🇰 香港|🐰2
       - 🇸🇬 新加坡|🐰
-      - 🐰
-      - 🇭🇰 香港c|🐰
       - 🇯🇵 日本东京|🐰
-      - 🏳️‍🌈 恶意刷流量是狗
       - 🇯🇵 日本B|🐰
+      - 🇰🇷 韩国|🐰
+      - 🇰🇷 韩国|🐰1
+      - 🏳️‍🌈 恶意刷流量是狗
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇹🇼 台湾独家|🐰1
-      - 🇸🇬 狮城普通|🐰
+      - 🇹🇼 台湾|🐰
+      - 🇹🇼 台湾|🐰1
+      - 🇹🇼 台湾|🐰2
+      - 🇹🇼 台湾|🐰3
+      - 🇹🇼 台湾|🐰4
+      - 🇸🇬 狮城|🐰
+		  - 🇸🇬 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
-      - 🇭🇰 香港1|🐰
+      - 以色列|🐰3
+      - 以色列|🐰4
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
@@ -154,30 +196,39 @@ proxy-groups:
       - 🇺🇸 美国|🐰4
       - 🇺🇸 美国|🐰5
       - 🇺🇸 美国|🐰6
-      - 以色列|🐰4
+      - 🇺🇸 美国|🐰7
+      - 🇺🇸 美国|🐰8
+      - 🇺🇸 美国|🐰9
       - 🇯🇵 日本|🐰1
       - 🇯🇵 日本|🐰2
-      - 🇹🇼 台湾|🐰
       - 🇭🇰 香港A|🐰
       - 🇭🇰 香港B|🐰
-      - 以色列|🐰3
-      - 🇹🇼 台湾2|🐰
+      - 🇭🇰 香港C|🐰
+      - 🇭🇰 香港|🐰
+      - 🇭🇰 香港|🐰1
+      - 🇭🇰 香港|🐰2
       - 🇸🇬 新加坡|🐰
-      - 🐰
-      - 🇭🇰 香港c|🐰
       - 🇯🇵 日本东京|🐰
-      - 🏳️‍🌈 恶意刷流量是狗
       - 🇯🇵 日本B|🐰
+      - 🇰🇷 韩国|🐰
+      - 🇰🇷 韩国|🐰1
+      - 🏳️‍🌈 恶意刷流量是狗
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇹🇼 台湾独家|🐰1
-      - 🇸🇬 狮城普通|🐰
+      - 🇹🇼 台湾|🐰
+      - 🇹🇼 台湾|🐰1
+      - 🇹🇼 台湾|🐰2
+      - 🇹🇼 台湾|🐰3
+      - 🇹🇼 台湾|🐰4
+      - 🇸🇬 狮城|🐰
+		  - 🇸🇬 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
-      - 🇭🇰 香港1|🐰
+      - 以色列|🐰3
+      - 以色列|🐰4
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
@@ -185,30 +236,39 @@ proxy-groups:
       - 🇺🇸 美国|🐰4
       - 🇺🇸 美国|🐰5
       - 🇺🇸 美国|🐰6
-      - 以色列|🐰4
+      - 🇺🇸 美国|🐰7
+      - 🇺🇸 美国|🐰8
+      - 🇺🇸 美国|🐰9
       - 🇯🇵 日本|🐰1
       - 🇯🇵 日本|🐰2
-      - 🇹🇼 台湾|🐰
       - 🇭🇰 香港A|🐰
       - 🇭🇰 香港B|🐰
-      - 以色列|🐰3
-      - 🇹🇼 台湾2|🐰
+      - 🇭🇰 香港C|🐰
+      - 🇭🇰 香港|🐰
+      - 🇭🇰 香港|🐰1
+      - 🇭🇰 香港|🐰2
       - 🇸🇬 新加坡|🐰
-      - 🐰
-      - 🇭🇰 香港c|🐰
       - 🇯🇵 日本东京|🐰
-      - 🏳️‍🌈 恶意刷流量是狗
       - 🇯🇵 日本B|🐰
+      - 🇰🇷 韩国|🐰
+      - 🇰🇷 韩国|🐰1
+      - 🏳️‍🌈 恶意刷流量是狗
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇹🇼 台湾独家|🐰1
-      - 🇸🇬 狮城普通|🐰
+      - 🇹🇼 台湾|🐰
+      - 🇹🇼 台湾|🐰1
+      - 🇹🇼 台湾|🐰2
+      - 🇹🇼 台湾|🐰3
+      - 🇹🇼 台湾|🐰4
+      - 🇸🇬 狮城|🐰
+		  - 🇸🇬 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
-      - 🇭🇰 香港1|🐰
+      - 以色列|🐰3
+      - 以色列|🐰4
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
@@ -216,31 +276,40 @@ proxy-groups:
       - 🇺🇸 美国|🐰4
       - 🇺🇸 美国|🐰5
       - 🇺🇸 美国|🐰6
-      - 以色列|🐰4
+      - 🇺🇸 美国|🐰7
+      - 🇺🇸 美国|🐰8
+      - 🇺🇸 美国|🐰9
       - 🇯🇵 日本|🐰1
       - 🇯🇵 日本|🐰2
-      - 🇹🇼 台湾|🐰
       - 🇭🇰 香港A|🐰
       - 🇭🇰 香港B|🐰
-      - 以色列|🐰3
-      - 🇹🇼 台湾2|🐰
+      - 🇭🇰 香港C|🐰
+      - 🇭🇰 香港|🐰
+      - 🇭🇰 香港|🐰1
+      - 🇭🇰 香港|🐰2
       - 🇸🇬 新加坡|🐰
-      - 🐰
-      - 🇭🇰 香港c|🐰
       - 🇯🇵 日本东京|🐰
-      - 🏳️‍🌈 恶意刷流量是狗
       - 🇯🇵 日本B|🐰
+      - 🇰🇷 韩国|🐰
+      - 🇰🇷 韩国|🐰1
+      - 🏳️‍🌈 恶意刷流量是狗
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇹🇼 台湾独家|🐰1
-      - 🇸🇬 狮城普通|🐰
+      - 🇹🇼 台湾|🐰
+      - 🇹🇼 台湾|🐰1
+      - 🇹🇼 台湾|🐰2
+      - 🇹🇼 台湾|🐰3
+      - 🇹🇼 台湾|🐰4
+      - 🇸🇬 狮城|🐰
+		  - 🇸🇬 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
-      - 🇭🇰 香港1|🐰
+      - 以色列|🐰3
+      - 以色列|🐰4
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
@@ -248,20 +317,23 @@ proxy-groups:
       - 🇺🇸 美国|🐰4
       - 🇺🇸 美国|🐰5
       - 🇺🇸 美国|🐰6
-      - 以色列|🐰4
+      - 🇺🇸 美国|🐰7
+      - 🇺🇸 美国|🐰8
+      - 🇺🇸 美国|🐰9
       - 🇯🇵 日本|🐰1
       - 🇯🇵 日本|🐰2
-      - 🇹🇼 台湾|🐰
       - 🇭🇰 香港A|🐰
       - 🇭🇰 香港B|🐰
-      - 以色列|🐰3
-      - 🇹🇼 台湾2|🐰
+      - 🇭🇰 香港C|🐰
+      - 🇭🇰 香港|🐰
+      - 🇭🇰 香港|🐰1
+      - 🇭🇰 香港|🐰2
       - 🇸🇬 新加坡|🐰
-      - 🐰
-      - 🇭🇰 香港c|🐰
       - 🇯🇵 日本东京|🐰
-      - 🏳️‍🌈 恶意刷流量是狗
       - 🇯🇵 日本B|🐰
+      - 🇰🇷 韩国|🐰
+      - 🇰🇷 韩国|🐰1
+      - 🏳️‍🌈 恶意刷流量是狗
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -284,11 +356,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇹🇼 台湾独家|🐰1
-      - 🇸🇬 狮城普通|🐰
+      - 🇹🇼 台湾|🐰
+      - 🇹🇼 台湾|🐰1
+      - 🇹🇼 台湾|🐰2
+      - 🇹🇼 台湾|🐰3
+      - 🇹🇼 台湾|🐰4
+      - 🇸🇬 狮城|🐰
+		  - 🇸🇬 狮城|🐰1
       - 以色列|🐰1      
       - 以色列|🐰2
-      - 🇭🇰 香港1|🐰
+      - 以色列|🐰3
+      - 以色列|🐰4
       - 以色列|🐰5
       - 🇺🇸 美国|🐰1
       - 🇺🇸 美国|🐰2
@@ -296,20 +374,23 @@ proxy-groups:
       - 🇺🇸 美国|🐰4
       - 🇺🇸 美国|🐰5
       - 🇺🇸 美国|🐰6
-      - 以色列|🐰4
+      - 🇺🇸 美国|🐰7
+      - 🇺🇸 美国|🐰8
+      - 🇺🇸 美国|🐰9
       - 🇯🇵 日本|🐰1
       - 🇯🇵 日本|🐰2
-      - 🇹🇼 台湾|🐰
       - 🇭🇰 香港A|🐰
       - 🇭🇰 香港B|🐰
-      - 以色列|🐰3
-      - 🇹🇼 台湾2|🐰
+      - 🇭🇰 香港C|🐰
+      - 🇭🇰 香港|🐰
+      - 🇭🇰 香港|🐰1
+      - 🇭🇰 香港|🐰2
       - 🇸🇬 新加坡|🐰
-      - 🐰
-      - 🇭🇰 香港c|🐰
       - 🇯🇵 日本东京|🐰
-      - 🏳️‍🌈 恶意刷流量是狗
       - 🇯🇵 日本B|🐰
+      - 🇰🇷 韩国|🐰
+      - 🇰🇷 韩国|🐰1
+      - 🏳️‍🌈 恶意刷流量是狗
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
