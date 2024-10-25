@@ -1,0 +1,41 @@
+proxies:
+  - {name: 🇷🇺 俄罗斯+V2CROSS.COM, server: 89.185.84.185, port: 12575, type: ss, cipher: chacha20-ietf-poly1305, password: gdt6FA0fOR3pBQdFcyHyfv}
+  - {name: 🇫🇷 法国+V2CROSS.COM, server: 146.19.106.89, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: M2MxYWZm}
+  - {name: 🇨🇳 广东省广州市+电信IDC机房, server: hk1.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: 🇨🇳 广东省广州市+电信IDC机房 2, server: hk5.mhw7e2.online, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: 🇨🇦 加拿大+V2CROSS.COM, server: 142.202.49.122, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 加拿大+V2CROSS.COM 2, server: 142.202.49.122, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大+V2CROSS.COM 3, server: 142.202.49.122, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大+V2CROSS.COM 4, server: 142.202.49.122, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 加拿大+V2CROSS.COM 5, server: 142.202.49.122, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大+V2CROSS.COM 6, server: 142.202.49.122, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大+V2CROSS.COM 7, server: 142.202.49.84, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大+V2CROSS.COM 8, server: 142.202.49.84, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大+V2CROSS.COM 9, server: 142.202.49.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大+V2CROSS.COM 10, server: 142.202.49.84, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 加拿大+V2CROSS.COM 11, server: 142.202.49.84, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大+V2CROSS.COM 12, server: 142.202.49.84, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络, server: 122.195.189.15, port: 10720, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 2, server: 122.195.189.15, port: 10718, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 3, server: 122.195.189.15, port: 10716, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 4, server: 122.195.189.15, port: 10703, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 5, server: 122.195.189.15, port: 10702, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 6, server: 122.195.189.15, port: 10712, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 7, server: 122.195.189.15, port: 10726, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 8, server: 122.195.189.15, port: 10719, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 9, server: 122.195.189.15, port: 10707, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 10, server: 122.195.189.15, port: 10721, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 11, server: 122.195.189.15, port: 10710, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 12, server: 122.195.189.15, port: 10709, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 13, server: 122.195.189.15, port: 10714, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 14, server: 122.195.189.15, port: 10722, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 15, server: 122.195.189.15, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 16, server: 122.195.189.15, port: 10708, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 17, server: 122.195.189.15, port: 10715, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 18, server: 122.195.189.15, port: 10705, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 19, server: 122.195.189.15, port: 10713, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 20, server: 122.195.189.15, port: 10704, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 21, server: yidong1.liulangdiqiu.life, port: 10709, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 22, server: yidong1.liulangdiqiu.life, port: 10714, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 23, server: yidong1.liulangdiqiu.life, port: 10712, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
+  - {name: 🇬🇧 江苏省宿迁市+联通/蒲公英网络 24, server: yidong1.liulangdiqiu.life, port: 10726, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
