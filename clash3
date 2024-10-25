@@ -31,7 +31,7 @@ proxies:
   - {name: 俄罗斯+V2CROSS.COM 3, server: 5.44.42.31, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: vG9YMKAMPnAzkmfK2Y2dY6ZU3liQMhsWJgMpujFrE7baNMaj}
   - {name: 俄罗斯+V2CROSS.COM 4, server: 77.221.154.33, port: 59529, type: ss, cipher: chacha20-ietf-poly1305, password: lU6*V8=shP}
   - {name: 江苏省宿迁市+联通/蒲公英网络, server: yidong1.liulangdiqiu.life, port: 10708, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65}
-   - {name: 🇺🇸 美国+V2CROSS.COM, server: 139.64.165.155, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 美国+V2CROSS.COM, server: 139.64.165.155, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: 🇺🇸 美国+V2CROSS.COM 2, server: 139.64.165.155, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇺🇸 美国+V2CROSS.COM 3, server: 139.64.165.155, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇺🇸 美国+V2CROSS.COM 4, server: 139.64.165.230, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
